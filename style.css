@@ -13,8 +13,13 @@ main {
 
 .input {
   margin-bottom: 20px;
+  font-size: large;
 }
 
+#input1, #input2{
+  height: 20px;
+  border: solid 3px black;
+}
 .operacoes {
   display: flex;
 }
@@ -22,13 +27,16 @@ main {
 .button {
   padding: 10px;
   margin-left: 25px;
+  background-color: red;
+  color: white;
+  font-size: large
 }
 
 .result {
   margin-top: 30px;
   width: 300px;
   height: 50px;
-  border: solid black 1px;
+  border: solid black 3px;
 }
 
 p {
